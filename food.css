@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(#000000b3, #000000b3), url(images/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+.navbar .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    float: right;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'lato', "Arial", sans-serif;
+    font-size: 18px;
+}
+
+.main-nav li a.links:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav li a.links:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav li a.links:hover {
+    text-decoration: underline #e67e27;
+    text-underline-offset: 1rem;
+}
+.hero-text {
+    position: absolute;
+    width: 71.25rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-text h1{
+    margin-top: 0;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #ffffff;
+    text-transform: uppercase ;
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+.hero-text .btn-1{
+    border: 1px solid #e67e12;
+    background-color: #e67e12;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 200px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn-1:hover {
+    background-color: #cf6d17;;
+    color: white;
+  }
+.hero-text .btn-2{
+    border: 1px solid #e67e27;
+    font-size: 20px;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 200px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn-2:hover {
+    background-color: #cf6d17;;
+    color: #ffffff;
+}
+.features-section{
+    background-color: #ffffff;
+    padding: 80px 0;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    max-width: 1140px;
+    text-align: center;
+    margin: auto;
+}
+.row h2{
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.features-section .long-copy {
+    margin-bottom: 30px;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
