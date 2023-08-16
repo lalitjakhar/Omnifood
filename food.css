@@ -218,8 +218,13 @@ header {
     width: 100%;
     height: auto;
     transition: transform .5s;
-    transform: scale(1.15);
+    /* transform: scale(1.15) !important; */
     opacity: 0.5s;
+}
+
+.meal-photo img:hover {
+    transform: scale(1.03) !important;
+    opacity: 1;
 }
 
 .steps-section {
@@ -306,43 +311,61 @@ header {
     width: auto;
     margin-right: 10px;
 }
-.cities-section{
+
+.cities-section {
     padding: 80px 0;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
 }
-.cities{
+
+.cities {
     max-width: 1140px;
     text-align: center;
     margin: auto;
 }
-.cities.row{
 
-}
-.card-container{
+.cities.row {}
+
+.card-container {
     display: flex;
     flex-direction: row;
 }
-.card-container .column{
+
+.card-container .column {
     padding: 1%;
 }
-.card img{
+
+.column p {
+    font-size: 100%;
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+}
+
+.card img {
     width: 250px;
 }
-.column h3{
-    font-size: 110%;
+
+.column h3 {
+    font-size: 140%;
     margin-top: 15px;
 }
-.city-feature{
+
+.city-feature {
     margin-bottom: 5px;
+    display: flex;
+    font-size: 116%;
 }
-.city-feature i{
+.fa-twitter:hover{
+    color: rgb(0, 153, 255) !important;
+}
+.city-feature i {
     margin-right: 10px;
 }
-a:link, a:visited {
-    color: #e67e22;
-    text-decoration: none;
-    padding-bottom: 1px;
-    border-bottom: 1px solid #e67e22;
-    transform: border-bottom 0.2s, color 0.2s;
+a{
+    color: #ff7b00;
+}
+a:hover {
+    color: #858585;
 }
