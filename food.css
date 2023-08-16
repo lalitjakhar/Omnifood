@@ -167,7 +167,7 @@ header {
     text-align: left;
 }
 
-.card h3 {
+.card h2 {
     text-transform: uppercase;
     background-color: #fff;
     color: #555;
@@ -350,6 +350,9 @@ header {
 .column h3 {
     font-size: 140%;
     margin-top: 15px;
+    text-transform: uppercase;
+    color: #555;
+    font-weight: 300;
 }
 
 .city-feature {
