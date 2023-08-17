@@ -324,7 +324,9 @@ header {
     margin: auto;
 }
 
-.cities.row {}
+.cities.row {
+    
+}
 
 .card-container {
     display: flex;
@@ -360,17 +362,44 @@ header {
     display: flex;
     font-size: 116%;
 }
-.fa-twitter:hover{
+
+.fa-twitter:hover {
     color: rgb(0, 153, 255) !important;
 }
+
 .city-feature i {
     margin-right: 10px;
 }
-a{
+
+a {
     color: #ff7b00;
 }
+
 a:hover {
     color: #858585;
+}
+.testimonials-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),  url(images/back-customers.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.customer-row{
+    max-width: 1140px;
+    text-align: center;
+    margin:auto;
+    padding: 80px 0;
+}
+.customer-profile h2{
+    color: #ffffff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 180%;
 }
 .plans-section {
     background-color: #f4f4f4;
@@ -384,7 +413,8 @@ a:hover {
     text-align: center;
     margin: auto;
 }
-.plans-row h2{
+
+.plans-row h2 {
     margin-bottom: 30px;
     text-transform: uppercase;
     font-weight: 300;
@@ -392,14 +422,53 @@ a:hover {
     letter-spacing: 1px;
     font-size: 180%;
 }
-.price-row{
+
+.container-fluid {
     display: flex;
     justify-content: space-between;
+}
 
+.price-card {
+    text-align: start;
 }
-.price-card{
-    background-color: #ffffff;
+.card-body{
+    padding: 15px;
 }
-.price-column{
-    width: 30%;
+.body-content{
+    padding: 15px;
+}
+.button-sign{
+    padding: 15px;
+    text-align: center;
+    border: 0;
+}
+.btn-full{
+    border: 1px solid #e67e12;
+    background-color: #e67e12;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-right: 15px;
+    color: #ffffff;
+}
+.btn-ful:hover {
+    background-color: #cf6d17;
+    color: #ffffff;
+}
+.card-body h1{
+    font-size: 130%;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.body-content ul {
+    list-style: none;
+}
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
 }
