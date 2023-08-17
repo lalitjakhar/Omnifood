@@ -20,6 +20,12 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.navbar .row img{
+    height: 100px;
+     width: auto; 
+     float: left; 
+     margin-top: 20px;
+}
 
 .main-nav {
     float: right;
@@ -377,7 +383,7 @@ a:hover {
 
 .testimonials-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/back-customers.jpg);
-    height: 100vh;
+    height: 70vh;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -581,15 +587,51 @@ cite img {
     font-size: 180%;
 }
 
+.name{
+    font-size: 20px;
+}
+#name{
+    width: 40%;
+    margin-left: 18%;
+    margin-top: 2%;
+    height: 30px;
+}
 
-
-
-
-
-
-
-
-
+.email{
+    font-size: 20px;
+}
+#email{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 30px;
+}
+.findus{
+    font-size: 20px;
+}
+#findus{
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 2%;
+    height: 30px;
+}
+.newsletter{
+    font-size: 20px;
+}
+#news{
+    width: 70%;
+    margin-left: -25%;
+    margin-top: 2%;
+}
+.line{
+    font-size: 20px;
+}
+#line{
+    width: 40%;
+    margin-left: 13%;
+    margin-top: 2%;
+    height: 30px;
+}
 
 footer {
     background-color: #333;
