@@ -324,10 +324,6 @@ header {
     margin: auto;
 }
 
-.cities.row {
-    
-}
-
 .card-container {
     display: flex;
     flex-direction: row;
@@ -433,12 +429,16 @@ a:hover {
 }
 .card-body{
     padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
 }
 .body-content{
     padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    font-family: 'Lato', 'Arial', sans-serif;
 }
 .button-sign{
     padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
     text-align: center;
     border: 0;
 }
@@ -471,4 +471,8 @@ a:hover {
     margin-bottom: 10px;
     font-weight: 100;
     color: #e67e22;
+}
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
 }
