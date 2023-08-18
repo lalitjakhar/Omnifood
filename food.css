@@ -20,11 +20,12 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.navbar .row img{
+
+.navbar .row img {
     height: 100px;
-     width: auto; 
-     float: left; 
-     margin-top: 20px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
 }
 
 .main-nav {
@@ -406,10 +407,12 @@ a:hover {
     letter-spacing: 1px;
     font-size: 180%;
 }
-.customer-col{
+
+.customer-col {
     width: 30.26%;
     float: left;
-    margin: 1% 0 1% 1.6%;;
+    margin: 1% 0 1% 1.6%;
+    ;
 }
 
 .customer-col p {
@@ -423,6 +426,7 @@ a:hover {
     font-size: 20px;
     font-weight: 300;
 }
+
 cite {
     font-size: 90%;
     margin-top: 25px;
@@ -430,12 +434,14 @@ cite {
     margin-top: 40px;
     float: left;
 }
+
 cite img {
     height: 45px;
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
 }
+
 .plans-section {
     background-color: #f4f4f4;
     padding: 80px 0;
@@ -587,46 +593,54 @@ cite img {
     font-size: 180%;
 }
 
-.name{
+.name {
     font-size: 20px;
 }
-#name{
+
+#name {
     width: 40%;
     margin-left: 18%;
     margin-top: 2%;
     height: 30px;
 }
 
-.email{
+.email {
     font-size: 20px;
 }
-#email{
+
+#email {
     width: 40%;
     margin-left: 10%;
     margin-top: 2%;
     height: 30px;
 }
-.findus{
+
+.findus {
     font-size: 20px;
 }
-#findus{
+
+#findus {
     width: 40%;
     margin-left: 7%;
     margin-top: 2%;
     height: 30px;
 }
-.newsletter{
+
+.newsletter {
     font-size: 20px;
 }
-#news{
+
+#news {
     width: 78%;
     margin-left: -25%;
     margin-top: 2%;
 }
-.line{
+
+.line {
     font-size: 20px;
 }
-#line{
+
+#line {
     width: 40%;
     margin-left: 13%;
     margin-top: 2%;
